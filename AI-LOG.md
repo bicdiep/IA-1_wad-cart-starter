@@ -39,6 +39,7 @@ Tool: ChatGPT
 Asked for: Hướng dẫn kiểm tra và thiết lập GitHub Actions CI cho project, bao gồm tạo `.github/workflows/ci.yml` và cấu hình để chạy test và kiểm tra format khi push hoặc tạo pull request.
 
 Kept:
+
 - Sử dụng GitHub Actions với `ubuntu-latest`.
 - Sử dụng `actions/checkout@v4` để checkout repository.
 - Sử dụng `actions/setup-node@v4` với Node.js 20.
@@ -48,13 +49,16 @@ Kept:
 - Cấu hình workflow chạy khi có `push` và `pull_request`.
 
 Changed:
+
 - Tạo thư mục `.github/workflows/` và file `ci.yml`.
 - Thêm workflow CI vào project theo cấu trúc phù hợp với các scripts hiện có trong `package.json`.
 
 Rejected:
+
 - Không thêm các bước build hoặc dependency không cần thiết cho bài.
 - Không thêm test framework mới vì project đã sử dụng Node.js built-in test runner.
 
 By hand:
+
 - Tôi tạo file `.github/workflows/ci.yml` dựa trên hướng dẫn và kiểm tra lại nội dung workflow.
 - Tôi kiểm tra các lệnh mà CI sử dụng có tương ứng với scripts trong `package.json`.
