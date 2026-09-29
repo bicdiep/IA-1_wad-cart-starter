@@ -9,12 +9,7 @@ Implement `cartTotal(items, options)` according to the specification in `README.
 - `src/cart.js`
 - `test/cart.test.js`
 - `package.json` and `package-lock.json` only when required for the project harness
-- `AGENTS.md`
-- `BRIEF.md`
-- `AI-LOG.md`
 - `.github/workflows/ci.yml`
-- `SELF_ASSESSMENT_REPORT.md`
-
 Do not modify unrelated files.
 
 ## Contract
