@@ -10,7 +10,7 @@ Implement `cartTotal(items, options)` according to the specification in `README.
 - `test/cart.test.js`
 - `package.json` and `package-lock.json` only when required for the project harness
 - `.github/workflows/ci.yml`
-Do not modify unrelated files.
+  Do not modify unrelated files.
 
 ## Contract
 
